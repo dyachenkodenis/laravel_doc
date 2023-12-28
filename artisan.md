@@ -27,13 +27,13 @@
 <a name="introduction"></a>
 ## Introduction
 
-Artisan is the command line interface included with Laravel. Artisan exists at the root of your application as the `artisan` script and provides a number of helpful commands that can assist you while you build your application. To view a list of all available Artisan commands, you may use the `list` command:
+Artisan - это интерфейс командной строки, входящий в состав Laravel. Artisan находится в корне вашего приложения как скрипт `artisan` и предоставляет ряд полезных команд, которые могут помочь вам при создании вашего приложения. Чтобы просмотреть список всех доступных команд Artisan, вы можете воспользоваться командой `list`:
 
 ```shell
 php artisan list
 ```
 
-Every command also includes a "help" screen which displays and describes the command's available arguments and options. To view a help screen, precede the name of the command with `help`:
+Каждая команда также включает "help", который отображает и описывает доступные аргументы и опции команды. Чтобы просмотреть справку, перед названием команды укажите `help`:
 
 ```shell
 php artisan help migrate
